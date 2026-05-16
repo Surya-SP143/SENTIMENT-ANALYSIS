@@ -29,5 +29,5 @@ The project follows a standard machine learning engineering pipeline for unstruc
 4. **Evaluation:** Evaluated model performance utilizing the Binary Classification Evaluator (Area Under ROC) and visualized performance metrics using a Matplotlib/Seaborn **Confusion Matrix Heatmap**.
 
 ###  Performance & Insights
-* **Model Accuracy (ROC Score):** [Insert your final accuracy score here, e.g., 0.88]
+* **Model Accuracy (ROC Score):** [0.8481]
 * **Key Observations:** The pipeline proved highly efficient at isolating sentiment-bearing keywords (e.g., "masterpiece", "waste"). Distributed computing via Spark ensured rapid tokenization and feature mapping across thousands of heavy text records without latency.
